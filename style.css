@@ -1,0 +1,132 @@
+@import url('http://fonts.cdnfonts.com/css/sequel');
+
+body {
+    background-color: rgb(0, 0, 0);
+    position: relative;
+}
+
+.container {
+    text-align: center;
+}
+
+.container img {
+    width: 250px;
+    margin-top: -60px;
+}
+
+.titleH {
+    /* font-family: 'Indie Flower', cursive; */
+    font-family: 'Sequel', sans-serif;
+    font-size: calc(85px - 5px);
+    color: #6d6d6d;
+    margin: 60px 0 0 0;
+    text-shadow: 2px 2px black;
+    font-weight: 800;
+}
+
+.keys {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 30px;
+    margin-top: -30px;
+}
+
+.keys .key {
+    font-family: 'Sequel', sans-serif;
+
+    /* height: 80px; */
+    /* width: 90px; */
+    border: 3px solid black;
+    text-shadow: 0 0 0.3rem white;
+    color: black;
+    border-radius: 2px;
+    /* font-size: 42px; */
+    font-weight: 500;
+    z-index: 10;
+    box-shadow: 4px 3px 5px black;
+    background: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(48, 48, 48, 0.7));
+}
+
+.keys .beats {
+    font-family: 'Sequel', sans-serif;
+
+    /* font-size: 25px; */
+    /* display: block; */
+    color: #000000;
+    /* font-weight: 100; */
+    text-shadow: 0 0 0.5rem rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+
+.keys .play {
+    background-color: rgba(36, 36, 36, 0.418);
+    box-shadow: 2px 2px 5px rgb(255, 255, 255);
+}
+
+footer {
+    font-family: 'Sequel', sans-serif;
+
+    font-size: 15px;
+    /* position: absolute; */
+    color: rgb(0, 0, 0);
+    bottom: 10;
+    width: 100%;
+    text-align: center;
+    /* opacity: 0.7; */
+}
+
+a:link {
+    color: rgb(4, 91, 121);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(0, 119, 255);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(0, 132, 255);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: rgb(4, 187, 211);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+@media (max-width: 550px) {
+    div {
+        font-size: 16px;
+    }
+
+    a.foot {
+        font-size: 16px;
+    }
+
+    a {
+        font-size: 32px;
+    }
+
+}
+
+@media (min-width: 551px) {
+
+    div,
+    a.foot {
+        font-size: 32px;
+    }
+
+    a.foot {
+        font-size: 16px;
+    }
+
+    a {
+        font-size: 16px;
+    }
+}
