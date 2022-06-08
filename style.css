@@ -1,5 +1,5 @@
 
-@import url('http://fonts.cdnfonts.com/css/sequel');
+/* @import url('http://fonts.cdnfonts.com/css/sequel'); */
 
 body {
     background-color: rgb(0, 0, 0);
@@ -17,7 +17,7 @@ body {
 
 .titleH {
     /* font-family: 'Indie Flower', cursive; */
-    font-family: 'sequel', sans-serif;
+    /* font-family: 'sequel', sans-serif; */
     font-size: calc(85px - 5px);
     color: #6d6d6d;
     margin: 60px 0 0 0;
@@ -34,7 +34,7 @@ body {
 }
 
 .keys .key {
-    font-family: 'sequel', sans-serif;
+    /* font-family: 'sequel', sans-serif; */
 
     /* height: 80px; */
     /* width: 90px; */
@@ -43,19 +43,19 @@ body {
     color: black;
     border-radius: 2px;
     /* font-size: 42px; */
-    font-weight: 500;
+    font-weight: 1000;
     z-index: 10;
     box-shadow: 4px 3px 5px black;
     background: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(48, 48, 48, 0.7));
 }
 
 .keys .beats {
-    font-family: 'sequel', sans-serif;
+    /* font-family: 'sequel', sans-serif; */
 
-    /* font-size: 25px; */
+    font-size: 20px;
     /* display: block; */
     color: #000000;
-    /* font-weight: 100; */
+    font-weight: 800;
     text-shadow: 0 0 0.5rem rgb(255, 255, 255);
     text-transform: uppercase;
 }
@@ -66,7 +66,7 @@ body {
 }
 
 footer {
-    font-family: 'sequel', sans-serif;
+    /* font-family: 'sequel', sans-serif; */
 
     font-size: 15px;
     /* position: absolute; */
