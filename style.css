@@ -17,7 +17,7 @@ body {
 
 .titleH {
     /* font-family: 'Indie Flower', cursive; */
-    font-family: 'Sequel', sans-serif;
+    font-family: 'sequel', sans-serif;
     font-size: calc(85px - 5px);
     color: #6d6d6d;
     margin: 60px 0 0 0;
@@ -34,7 +34,7 @@ body {
 }
 
 .keys .key {
-    font-family: 'Sequel', sans-serif;
+    font-family: 'sequel', sans-serif;
 
     /* height: 80px; */
     /* width: 90px; */
@@ -50,7 +50,7 @@ body {
 }
 
 .keys .beats {
-    font-family: 'Sequel', sans-serif;
+    font-family: 'sequel', sans-serif;
 
     /* font-size: 25px; */
     /* display: block; */
@@ -66,7 +66,7 @@ body {
 }
 
 footer {
-    font-family: 'Sequel', sans-serif;
+    font-family: 'sequel', sans-serif;
 
     font-size: 15px;
     /* position: absolute; */
